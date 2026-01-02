@@ -152,4 +152,17 @@ After completing the exercise, consider:
 
 ---
 
-[← Back to Exercises Overview](../README.md) | [Previous: Regulatory Tracker](../02-regulatory-change-tracker/README.md) | [Next: Vendor Risk Assessment →](../04-vendor-risk-assessment/README.md)
+---
+
+## Navigation
+
+To return to the main branch with all frameworks and templates:
+```bash
+git checkout main
+```
+
+To navigate between exercises:
+```bash
+git checkout claude/exercise-02-regulatory-change-tracker-21lOv  # Previous
+git checkout claude/exercise-04-vendor-risk-assessment-21lOv     # Next
+```
