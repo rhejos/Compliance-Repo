@@ -138,4 +138,16 @@ After completing the exercise, consider:
 
 ---
 
-[← Back to Exercises Overview](../README.md) | [Next: Regulatory Change Tracker →](../02-regulatory-change-tracker/README.md)
+---
+
+## Navigation
+
+To return to the main branch with all frameworks and templates:
+```bash
+git checkout main
+```
+
+To continue to the next exercise:
+```bash
+git checkout claude/exercise-02-regulatory-change-tracker-21lOv
+```
