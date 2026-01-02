@@ -138,4 +138,18 @@ After completing the exercise, consider:
 
 ---
 
-[← Back to Exercises Overview](../README.md) | [Previous: Audit Evidence](../07-audit-evidence-collection/README.md)
+---
+
+## Navigation
+
+To return to the main branch with all frameworks and templates:
+```bash
+git checkout main
+```
+
+To go to the previous exercise:
+```bash
+git checkout claude/exercise-07-audit-evidence-collection-21lOv
+```
+
+**Congratulations!** This is the final capstone exercise. After completing it, you've worked through all 8 compliance training exercises.
