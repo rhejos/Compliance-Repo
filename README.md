@@ -121,4 +121,17 @@ Good audit evidence is:
 
 ---
 
-[← Back to Exercises Overview](../README.md) | [Previous: Communications Playbook](../06-communications-review-playbook/README.md) | [Next: Communications Simulation →](../08-communications-review-simulation/README.md)
+---
+
+## Navigation
+
+To return to the main branch with all frameworks and templates:
+```bash
+git checkout main
+```
+
+To navigate between exercises:
+```bash
+git checkout claude/exercise-06-communications-review-playbook-21lOv   # Previous
+git checkout claude/exercise-08-communications-review-simulation-21lOv # Next (Capstone)
+```
