@@ -145,4 +145,17 @@ After completing the exercise, consider:
 
 ---
 
-[← Back to Exercises Overview](../README.md) | [Previous: Escalation Framework](../01-escalation-decision-framework/README.md) | [Next: Incident Response →](../03-incident-response-workflow/README.md)
+---
+
+## Navigation
+
+To return to the main branch with all frameworks and templates:
+```bash
+git checkout main
+```
+
+To navigate between exercises:
+```bash
+git checkout claude/exercise-01-escalation-decision-framework-21lOv  # Previous
+git checkout claude/exercise-03-incident-response-workflow-21lOv     # Next
+```
