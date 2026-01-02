@@ -147,4 +147,17 @@ Check your analysis against the [Solutions](solutions.md).
 
 ---
 
-[← Back to Exercises Overview](../README.md) | [Previous: Vendor Risk](../04-vendor-risk-assessment/README.md) | [Next: Communications Playbook →](../06-communications-review-playbook/README.md)
+---
+
+## Navigation
+
+To return to the main branch with all frameworks and templates:
+```bash
+git checkout main
+```
+
+To navigate between exercises:
+```bash
+git checkout claude/exercise-04-vendor-risk-assessment-21lOv         # Previous
+git checkout claude/exercise-06-communications-review-playbook-21lOv # Next
+```
