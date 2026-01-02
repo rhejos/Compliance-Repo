@@ -25,30 +25,86 @@ This repository serves as a **comprehensive training resource** for individuals 
 
 ## Repository Structure
 
+This repository uses a **branch-per-exercise** structure for focused learning:
+
 ```
-Compliance-Repo/
-├── README.md                    # You are here
+main branch/
+├── README.md                    # You are here - overview and navigation
 ├── frameworks/                  # Educational content on compliance frameworks
 │   ├── soc2/
 │   ├── gdpr/
 │   ├── hipaa/
 │   ├── pci-dss/
 │   └── iso27001/
-├── exercises/                   # Hands-on training projects
-│   ├── 01-escalation-decision-framework/
-│   ├── 02-regulatory-change-tracker/
-│   ├── 03-incident-response-workflow/
-│   ├── 04-vendor-risk-assessment/
-│   ├── 05-policy-gap-analysis/
-│   ├── 06-communications-review-playbook/
-│   ├── 07-audit-evidence-collection/
-│   └── 08-communications-review-simulation/
-└── templates/                   # Reusable templates
+└── templates/                   # Reusable templates for all exercises
+
+exercise-01-escalation-decision-framework/     # Branch for Exercise 01
+exercise-02-regulatory-change-tracker/         # Branch for Exercise 02
+exercise-03-incident-response-workflow/        # Branch for Exercise 03
+exercise-04-vendor-risk-assessment/            # Branch for Exercise 04
+exercise-05-policy-gap-analysis/               # Branch for Exercise 05
+exercise-06-communications-review-playbook/    # Branch for Exercise 06
+exercise-07-audit-evidence-collection/         # Branch for Exercise 07
+exercise-08-communications-review-simulation/  # Branch for Exercise 08
+```
+
+### How to Access Exercises
+
+To work on an exercise, switch to its branch:
+```bash
+git checkout exercise-01-escalation-decision-framework
 ```
 
 ---
 
-## Learning Path
+## Hands-On Training Path
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                           HANDS-ON TRAINING PATH                                 │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                  │
+│  PHASE 1: FOUNDATION                                                             │
+│  ┌─────────────────────────────────────┐  ┌─────────────────────────────────────┐│
+│  │ 01 ESCALATION DECISION FRAMEWORK    │  │ 02 REGULATORY CHANGE TRACKER        ││
+│  │ Effort: Low | Time: 2-3 hrs         │  │ Effort: Low | Time: 2-3 hrs         ││
+│  │ Skills: Judgment, Risk Assessment   │  │ Skills: Monitoring, Impact Analysis ││
+│  └─────────────────────────────────────┘  └─────────────────────────────────────┘│
+│                              │                              │                    │
+│                              └──────────────┬───────────────┘                    │
+│                                             ▼                                    │
+│  PHASE 2: CORE SKILLS                                                            │
+│  ┌─────────────────────────────────────┐  ┌─────────────────────────────────────┐│
+│  │ 03 INCIDENT RESPONSE WORKFLOW       │  │ 04 VENDOR RISK ASSESSMENT           ││
+│  │ Effort: Low-Med | Time: 3-4 hrs     │  │ Effort: Medium | Time: 4-5 hrs      ││
+│  │ Skills: Process Design, Breach Reqs │  │ Skills: Third-Party Risk, Due Dilig ││
+│  └─────────────────────────────────────┘  └─────────────────────────────────────┘│
+│                              │                              │                    │
+│  ┌─────────────────────────────────────┐                    │                    │
+│  │ 05 POLICY GAP ANALYSIS              │                    │                    │
+│  │ Effort: Medium | Time: 4-5 hrs      │◄───────────────────┘                    │
+│  │ Skills: Control Mapping, Gap ID     │                                         │
+│  └─────────────────────────────────────┘                                         │
+│                              │                                                   │
+│                              ▼                                                   │
+│  PHASE 3: ADVANCED APPLICATION                                                   │
+│  ┌─────────────────────────────────────┐  ┌─────────────────────────────────────┐│
+│  │ 06 COMMUNICATIONS REVIEW PLAYBOOK   │  │ 07 AUDIT EVIDENCE COLLECTION        ││
+│  │ Effort: Medium | Time: 4-5 hrs      │  │ Effort: Medium | Time: 4-5 hrs      ││
+│  │ Skills: Surveillance, Escalation    │  │ Skills: Evidence Mapping, Audit Prep││
+│  └─────────────────────────────────────┘  └─────────────────────────────────────┘│
+│                              │                              │                    │
+│                              └──────────────┬───────────────┘                    │
+│                                             ▼                                    │
+│  ┌─────────────────────────────────────────────────────────────────────────────┐│
+│  │                 08 COMMUNICATIONS REVIEW SIMULATION                          ││
+│  │                 Effort: Medium-High | Time: 5-6 hrs                          ││
+│  │                 Skills: Judgment, Regulatory Awareness, Real-Time Decisions  ││
+│  │                 [CAPSTONE EXERCISE - Combines All Prior Skills]              ││
+│  └─────────────────────────────────────────────────────────────────────────────┘│
+│                                                                                  │
+└─────────────────────────────────────────────────────────────────────────────────┘
+```
 
 We recommend completing the materials in this order:
 
@@ -83,16 +139,16 @@ We recommend completing the materials in this order:
 
 ## Exercises Overview
 
-| # | Exercise | Effort | Skills Demonstrated |
-|---|----------|--------|---------------------|
-| 01 | [Escalation Decision Framework](exercises/01-escalation-decision-framework/README.md) | Low | Judgment, risk assessment, documentation |
-| 02 | [Regulatory Change Tracker](exercises/02-regulatory-change-tracker/README.md) | Low | Monitoring, impact assessment |
-| 03 | [Incident Response Workflow](exercises/03-incident-response-workflow/README.md) | Low-Medium | Process design, notification requirements |
-| 04 | [Vendor Risk Assessment](exercises/04-vendor-risk-assessment/README.md) | Medium | Third-party risk, questionnaire design |
-| 05 | [Policy Gap Analysis](exercises/05-policy-gap-analysis/README.md) | Medium | Control mapping, gap identification |
-| 06 | [Communications Review Playbook](exercises/06-communications-review-playbook/README.md) | Medium | Surveillance criteria, escalation paths |
-| 07 | [Audit Evidence Collection](exercises/07-audit-evidence-collection/README.md) | Medium | Control-to-evidence mapping, audit prep |
-| 08 | [Communications Review Simulation](exercises/08-communications-review-simulation/README.md) | Medium-High | Judgment, regulatory awareness, decision-making |
+| # | Exercise | Branch | Effort | Skills Demonstrated |
+|---|----------|--------|--------|---------------------|
+| 01 | Escalation Decision Framework | `exercise-01-escalation-decision-framework` | Low | Judgment, risk assessment, documentation |
+| 02 | Regulatory Change Tracker | `exercise-02-regulatory-change-tracker` | Low | Monitoring, impact assessment |
+| 03 | Incident Response Workflow | `exercise-03-incident-response-workflow` | Low-Medium | Process design, notification requirements |
+| 04 | Vendor Risk Assessment | `exercise-04-vendor-risk-assessment` | Medium | Third-party risk, questionnaire design |
+| 05 | Policy Gap Analysis | `exercise-05-policy-gap-analysis` | Medium | Control mapping, gap identification |
+| 06 | Communications Review Playbook | `exercise-06-communications-review-playbook` | Medium | Surveillance criteria, escalation paths |
+| 07 | Audit Evidence Collection | `exercise-07-audit-evidence-collection` | Medium | Control-to-evidence mapping, audit prep |
+| 08 | Communications Review Simulation | `exercise-08-communications-review-simulation` | Medium-High | Judgment, regulatory awareness, decision-making |
 
 ---
 
@@ -143,6 +199,12 @@ No actual company communications, policies, or proprietary information is includ
 
 ## Getting Started
 
-Ready to begin? Start with the [Frameworks Overview](frameworks/README.md) to build your foundational knowledge, then move on to [Exercise 01](exercises/01-escalation-decision-framework/README.md).
+Ready to begin?
+
+1. **Start with Frameworks**: Read the [Frameworks Overview](frameworks/README.md) to build your foundational knowledge
+2. **Switch to Exercise Branch**: `git checkout exercise-01-escalation-decision-framework`
+3. **Complete the Exercise**: Follow the README in that branch
+4. **Compare to Solutions**: Review the solutions file to check your work
+5. **Repeat**: Move on to the next exercise branch
 
 Good luck on your compliance learning journey!
