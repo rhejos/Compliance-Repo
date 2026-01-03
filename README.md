@@ -23,6 +23,373 @@ This repository serves as a **comprehensive training resource** for individuals 
 
 ---
 
+## What is Compliance?
+
+> **"I'm a data engineer. Why do I need to know about compliance?"**
+>
+> Because that pipeline you built moves personal data across borders. That ML model you trained makes decisions about real people. That cloud migration you're planning has legal implications. When something goes wrong, "I just write code" isn't a defense.
+>
+> Technical roles are increasingly on the front lines of compliance. This repo helps you understand why—and gives you hands-on practice.
+
+### The Basics
+
+**Compliance** means ensuring an organization follows applicable laws, regulations, industry standards, and internal policies. It protects customers, employees, data, and the organization itself.
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        THE COMPLIANCE LANDSCAPE                              │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│   EXTERNAL REQUIREMENTS                    INTERNAL REQUIREMENTS             │
+│   ┌─────────────────────┐                  ┌─────────────────────┐          │
+│   │ Laws & Regulations  │                  │ Company Policies    │          │
+│   │ (GDPR, HIPAA, SOX)  │                  │ (Code of Conduct)   │          │
+│   └─────────────────────┘                  └─────────────────────┘          │
+│   ┌─────────────────────┐                  ┌─────────────────────┐          │
+│   │ Industry Standards  │                  │ Contractual Terms   │          │
+│   │ (PCI-DSS, ISO)      │                  │ (Client Agreements) │          │
+│   └─────────────────────┘                  └─────────────────────┘          │
+│                         ↘                ↙                                   │
+│                    ┌─────────────────────────┐                               │
+│                    │   COMPLIANCE PROGRAM    │                               │
+│                    │  Policies, Procedures,  │                               │
+│                    │  Controls, Monitoring   │                               │
+│                    └─────────────────────────┘                               │
+│                                 │                                            │
+│         ┌───────────────────────┼───────────────────────┐                   │
+│         ▼                       ▼                       ▼                   │
+│   ┌───────────┐           ┌───────────┐           ┌───────────┐             │
+│   │  PREVENT  │           │  DETECT   │           │  RESPOND  │             │
+│   │  Issues   │           │  Problems │           │  To Events│             │
+│   └───────────┘           └───────────┘           └───────────┘             │
+│                                                                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### Why Compliance Matters
+
+| Stakeholder | Why Compliance Matters |
+|-------------|----------------------|
+| **Customers** | Their data is protected; they can trust the organization |
+| **Employees** | Clear guidelines on acceptable behavior; protection from liability |
+| **The Organization** | Avoid fines, lawsuits, reputational damage, and operational disruptions |
+| **Regulators** | Ensures fair markets, consumer protection, and public safety |
+| **Investors** | Reduces risk and demonstrates good governance |
+
+### Why Compliance is Critical—And Always Will Be
+
+---
+
+#### 1. Trust Enables Commerce
+
+Without compliance rules, you'd have to personally verify every company you interact with. Regulations create a baseline that lets strangers do business together.
+
+**Before SEC (1934):** Stock markets were rampant with fraud. People lost life savings to fake companies.
+**After SEC:** Public companies must file audited financial statements. Ordinary people can invest with confidence.
+
+---
+
+#### 2. Scale of Harm Has Grown Exponentially
+
+| Era | Scope of Harm | Example |
+|-----|---------------|---------|
+| 1900s | Dozens | Local factory sells unsafe products |
+| 1950s | 10,000+ | Thalidomide birth defects worldwide |
+| 2000s | Millions | Enron wipes out retirement savings |
+| 2008 | Global | Subprime crisis triggers worldwide recession |
+| 2017 | 147 million | Equifax breach exposes half of US adults |
+| 2020s | Billions | AI systems affect entire populations |
+
+Regulations expand because stakes keep rising.
+
+---
+
+#### 3. Every Major Regulation Followed a Disaster
+
+| Crisis | What Happened | Resulting Regulation |
+|--------|---------------|---------------------|
+| 1929 Stock Crash | No disclosure, rampant fraud | SEC created |
+| 1960s Thalidomide | 10,000+ birth defects | FDA clinical trial requirements |
+| 2001 Enron | Executives hid billions in debt | Sarbanes-Oxley (SOX) |
+| 2008 Financial Crisis | Risky mortgages sold as safe | Dodd-Frank Act |
+| 2018 Cambridge Analytica | Facebook data used to manipulate elections | GDPR enforcement, CCPA passed |
+
+---
+
+#### 4. Emerging Tech Will Need More Compliance
+
+| Technology | Risk | Compliance Need |
+|------------|------|-----------------|
+| AI | Decisions affect jobs, loans, freedom | Fairness, explainability, human oversight |
+| Autonomous Vehicles | Life-or-death decisions | Safety standards, liability rules |
+| Gene Editing (CRISPR) | Human DNA modification | Consent, biosafety limits |
+| Brain-Computer Interfaces | Reading/writing to brains | Mental privacy, cognitive liberty |
+| Quantum Computing | Breaks current encryption | New encryption standards |
+| Cryptocurrency/DeFi | Unregulated financial services | Consumer protection, AML |
+
+---
+
+#### 5. Compliance Professionals Shape the Future
+
+| Role | Function |
+|------|----------|
+| **Translators** | Bridge between regulators and technologists |
+| **Architects** | Design compliant systems from the start |
+| **Advisors** | Find paths to business goals within legal boundaries |
+| **Protectors** | Catch issues before they become crises |
+| **Shapers** | Influence how new regulations are written |
+
+### What Compliance Professionals Do
+
+Compliance is not just about saying "no." It's about enabling the business to operate effectively while managing risk:
+
+- **Advise** - Help business teams understand regulatory requirements
+- **Design** - Create policies, procedures, and controls
+- **Monitor** - Watch for issues through testing, surveillance, and audits
+- **Investigate** - Look into potential violations or concerns
+- **Report** - Communicate with regulators, executives, and the board
+- **Train** - Educate employees on their responsibilities
+- **Remediate** - Fix problems and prevent recurrence
+
+### Why Compliance is Critical in Tech
+
+---
+
+#### 1. You Hold Millions of People's Data
+
+| Traditional Business | Tech Company |
+|---------------------|--------------|
+| Paper files in cabinet | Databases with millions of records |
+| Breach = dozens affected | Breach = millions affected |
+| Local jurisdiction | Global user base |
+
+**Key laws:** GDPR (EU), CCPA (California) give users rights to access and delete their data.
+
+---
+
+#### 2. One Product, Many Jurisdictions
+
+A startup can have users in 50 countries on day one. Each has different rules:
+
+| Region | Law | Key Requirement |
+|--------|-----|-----------------|
+| EU | GDPR | Strictest privacy law, 72-hour breach notification |
+| California | CCPA | Right to know what data is collected |
+| Brazil | LGPD | Similar to GDPR |
+| China | PIPL | Data localization required |
+| Russia | Data localization | Must store citizens' data on Russian servers |
+
+---
+
+#### 3. Regulators Catch Up Eventually
+
+| Year | Event |
+|------|-------|
+| 2004 | Facebook launches—no social media privacy rules |
+| 2016 | Cambridge Analytica harvests data—still no rules |
+| 2018 | GDPR takes effect |
+| 2019 | Facebook fined $5 billion |
+
+No rules today ≠ no consequences tomorrow.
+
+---
+
+#### 4. You're Responsible for Your Vendors
+
+Your app uses AWS, Stripe, Auth0, and 100+ libraries. A vulnerability anywhere affects your users.
+
+**Example:** Log4j (2021)—one logging library flaw affected millions of applications worldwide.
+
+---
+
+#### 5. 24/7 Operations, 72-Hour Deadlines
+
+GDPR requires breach notification within 72 hours. Weekends and holidays count.
+
+---
+
+#### 6. Algorithms Can Discriminate
+
+| System | Issue | Violation |
+|--------|-------|-----------|
+| Amazon hiring AI | Penalized "women's" on resumes | Gender discrimination |
+| Healthcare algorithm | Ranked Black patients as healthier | Racial discrimination |
+| Loan approval AI | Used zip code as proxy for race | Fair lending violation |
+
+**New laws:** GDPR Article 22 (right to human review), NYC Law 144 (annual AI bias audits), EU AI Act (transparency requirements).
+
+---
+
+#### 7. Real Consequences
+
+| Company | Fine/Outcome | What Happened |
+|---------|--------------|---------------|
+| Meta (2023) | €1.2 billion | Transferred EU data to US without adequate protection |
+| Equifax (2017) | $700 million | Failed to patch known vulnerability, 147M people exposed |
+| Uber (2022) | Criminal conviction | Covered up breach, paid hackers, called it "bug bounty" |
+| Theranos | 11+ years prison | Lied about whether technology worked |
+
+---
+
+#### Key Takeaways
+
+- Know what data you collect and where it's stored
+- Understand which laws apply based on user locations
+- You're responsible for vendor security failures
+- Have incident response plans that work at 3 AM
+- Audit algorithms for bias
+- Report breaches honestly and quickly
+- Document everything
+
+### Why Technical Roles Need Compliance Knowledge
+
+> **The days of "compliance is someone else's job" are over.**
+
+Every technical decision has compliance implications:
+
+| Technical Role | Compliance Responsibility |
+|----------------|--------------------------|
+| **Data Engineer** | Data lineage, retention policies, cross-border transfers, PII handling |
+| **ML Engineer** | Model bias audits, explainability, training data governance |
+| **Cloud Architect** | Data residency, encryption requirements, access controls |
+| **DevOps/SRE** | Audit logging, incident response, backup/recovery compliance |
+| **Backend Developer** | Consent management, data deletion, API security |
+| **Security Engineer** | Vulnerability management, penetration testing, SOC 2 controls |
+
+---
+
+#### Data Pipelines Are Compliance Pipelines
+
+Your ETL job isn't just moving data—it's potentially:
+- Transferring PII across borders (GDPR violation if done wrong)
+- Retaining data longer than allowed (data minimization violation)
+- Mixing data from different consent categories (purpose limitation violation)
+- Creating copies without proper access controls (security violation)
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    DATA PIPELINE COMPLIANCE CHECKPOINTS                      │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│  SOURCE              TRANSFORM              LOAD               CONSUME       │
+│  ┌─────────┐         ┌─────────┐         ┌─────────┐         ┌─────────┐   │
+│  │ Raw Data│ ──────► │ Process │ ──────► │  Store  │ ──────► │  Use    │   │
+│  └─────────┘         └─────────┘         └─────────┘         └─────────┘   │
+│       │                   │                   │                   │         │
+│       ▼                   ▼                   ▼                   ▼         │
+│  ┌─────────┐         ┌─────────┐         ┌─────────┐         ┌─────────┐   │
+│  │• Consent│         │• PII    │         │• Where? │         │• Who    │   │
+│  │  valid? │         │  masked?│         │  (region)│        │  access?│   │
+│  │• Source │         │• Logs   │         │• Encrypt?│        │• Purpose│   │
+│  │  legal? │         │  clean? │         │• Retain │         │  valid? │   │
+│  └─────────┘         └─────────┘         │  how    │         └─────────┘   │
+│                                          │  long?  │                        │
+│                                          └─────────┘                        │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+#### Cloud Migration = Compliance Migration
+
+Moving to AWS/Azure/GCP? You're also moving your compliance obligations:
+
+| On-Prem Reality | Cloud Reality |
+|-----------------|---------------|
+| Data stays in your building | Data can be anywhere (check regions!) |
+| You control hardware | Shared responsibility model |
+| Single jurisdiction | Multi-region = multi-jurisdiction |
+| Your team has access | Cloud provider employees too (encryption matters) |
+| You manage backups | Backups might replicate to other regions |
+
+**Before cloud migration, answer:**
+1. Where will data physically reside? (Some laws require local storage)
+2. Who at the cloud provider can access unencrypted data?
+3. How do you handle data subject deletion requests across all replicas?
+4. What happens to your data if you leave the provider?
+
+---
+
+#### AI/ML Models Are Compliance Risks
+
+| AI Risk | Compliance Requirement | Who's Responsible |
+|---------|----------------------|-------------------|
+| Training on personal data | Need legal basis (consent, legitimate interest) | ML Engineer + Legal |
+| Biased outcomes | Fairness audits, disparate impact testing | ML Engineer + Compliance |
+| Black-box decisions | Explainability for affected individuals | ML Engineer |
+| Data retention in models | Right to be forgotten extends to model retraining | ML Engineer + Data Engineer |
+| Automated decisions | Human review rights (GDPR Art. 22) | Product + ML Engineer |
+
+**EU AI Act Classification (coming 2025):**
+- **Unacceptable risk:** Social scoring, real-time biometric surveillance → Banned
+- **High risk:** Hiring, credit, healthcare decisions → Strict requirements
+- **Limited risk:** Chatbots, deepfakes → Transparency obligations
+- **Minimal risk:** Spam filters, games → No specific requirements
+
+### How Compliance Differs by Industry
+
+Different industries face different regulations based on the risks they create:
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                    COMPLIANCE BY INDUSTRY                                        │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                  │
+│  FINANCIAL SERVICES          HEALTHCARE                 TECHNOLOGY               │
+│  ┌─────────────────────┐     ┌─────────────────────┐    ┌─────────────────────┐ │
+│  │ • SEC/FINRA rules   │     │ • HIPAA (patient    │    │ • SOC 2 (security)  │ │
+│  │ • Anti-money        │     │   data protection)  │    │ • GDPR/CCPA         │ │
+│  │   laundering (AML)  │     │ • FDA regulations   │    │   (privacy)         │ │
+│  │ • Communications    │     │ • Clinical trial    │    │ • Export controls   │ │
+│  │   surveillance      │     │   requirements      │    │ • AI governance     │ │
+│  │ • Insider trading   │     │ • Billing/coding    │    │ • Content           │ │
+│  │   prevention        │     │   compliance        │    │   moderation        │ │
+│  └─────────────────────┘     └─────────────────────┘    └─────────────────────┘ │
+│                                                                                  │
+│  RETAIL/E-COMMERCE           MANUFACTURING              ENERGY/UTILITIES        │
+│  ┌─────────────────────┐     ┌─────────────────────┐    ┌─────────────────────┐ │
+│  │ • PCI-DSS (payment  │     │ • OSHA (workplace   │    │ • NERC CIP          │ │
+│  │   card security)    │     │   safety)           │    │   (grid security)   │ │
+│  │ • Consumer          │     │ • EPA environmental │    │ • Pipeline safety   │ │
+│  │   protection laws   │     │   regulations       │    │ • Nuclear (NRC)     │ │
+│  │ • Product safety    │     │ • Quality standards │    │ • Environmental     │ │
+│  │ • Advertising       │     │   (ISO 9001)        │    │   permits           │ │
+│  │   regulations       │     │ • Supply chain      │    │ • Rate regulation   │ │
+│  └─────────────────────┘     └─────────────────────┘    └─────────────────────┘ │
+│                                                                                  │
+└─────────────────────────────────────────────────────────────────────────────────┘
+```
+
+**Quick Industry Examples:**
+
+| Industry | Key Risk | Primary Focus | Example Requirement |
+|----------|----------|---------------|---------------------|
+| **Banking** | Money laundering, fraud | Transaction monitoring | Must file Suspicious Activity Reports (SARs) within 30 days |
+| **Healthcare** | Patient privacy breaches | Data protection | Must notify patients within 60 days of a breach |
+| **Tech/SaaS** | Data breaches, privacy violations | Security & privacy | Must allow EU users to delete their data (GDPR) |
+| **Pharma** | Unsafe drugs reaching market | Product safety | Clinical trials must follow Good Clinical Practice (GCP) |
+| **Finance (Trading)** | Market manipulation | Communications surveillance | Must retain all electronic communications for 7 years |
+| **Retail** | Credit card theft | Payment security | Cannot store CVV codes after transaction authorization |
+
+### What Are Compliance Frameworks?
+
+A **compliance framework** is a structured set of guidelines that helps organizations meet specific regulatory or industry requirements. Think of it as a blueprint for building a compliant organization.
+
+| Framework Type | Purpose | Examples |
+|---------------|---------|----------|
+| **Security** | Protect data and systems | SOC 2, ISO 27001, NIST |
+| **Privacy** | Protect personal information | GDPR, CCPA, HIPAA |
+| **Financial** | Ensure accurate reporting and prevent fraud | SOX, Basel III |
+| **Industry-Specific** | Meet sector requirements | PCI-DSS (payments), HIPAA (healthcare) |
+
+Each framework typically includes:
+- **Requirements** - What you must do
+- **Controls** - How you do it
+- **Evidence** - How you prove you did it
+- **Audits** - How others verify you did it
+
+---
+
 ## Repository Structure
 
 This repository uses a **branch-per-exercise** structure for focused learning:
@@ -46,6 +413,7 @@ exercise-05-policy-gap-analysis/               # Branch for Exercise 05
 exercise-06-communications-review-playbook/    # Branch for Exercise 06
 exercise-07-audit-evidence-collection/         # Branch for Exercise 07
 exercise-08-communications-review-simulation/  # Branch for Exercise 08
+exercise-09-data-pipeline-compliance/          # Branch for Exercise 09 (Technical Track)
 ```
 
 ### How to Access Exercises
@@ -103,6 +471,14 @@ git checkout exercise-01-escalation-decision-framework
 │  │                 [CAPSTONE EXERCISE - Combines All Prior Skills]              ││
 │  └─────────────────────────────────────────────────────────────────────────────┘│
 │                                                                                  │
+│  TECHNICAL TRACK (For Data Engineers, ML Engineers, Cloud Architects)           │
+│  ┌─────────────────────────────────────────────────────────────────────────────┐│
+│  │                 09 DATA PIPELINE COMPLIANCE REVIEW                           ││
+│  │                 Effort: Medium-High | Time: 4-6 hrs                          ││
+│  │                 Skills: Data Lineage, Cross-Border Transfers, Cloud/AI       ││
+│  │                 [8 Pipeline Scenarios: Analytics, ML, Healthcare, IoT...]    ││
+│  └─────────────────────────────────────────────────────────────────────────────┘│
+│                                                                                  │
 └─────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -122,6 +498,11 @@ We recommend completing the materials in this order:
 7. Complete **Exercise 06: Communications Review Playbook** (Medium Effort)
 8. Complete **Exercise 07: Audit Evidence Collection** (Medium Effort)
 9. Complete **Exercise 08: Communications Review Simulation** (Medium-High Effort)
+
+### Technical Track (For Technical Roles)
+10. Complete **Exercise 09: Data Pipeline Compliance Review** (Medium-High Effort)
+    - *Best for: Data Engineers, ML Engineers, Cloud Architects, DevOps*
+    - *Covers: 8 data pipeline scenarios, cloud compliance, AI/ML governance*
 
 ---
 
@@ -149,6 +530,16 @@ We recommend completing the materials in this order:
 | 06 | Communications Review Playbook | `exercise-06-communications-review-playbook` | Medium | Surveillance criteria, escalation paths |
 | 07 | Audit Evidence Collection | `exercise-07-audit-evidence-collection` | Medium | Control-to-evidence mapping, audit prep |
 | 08 | Communications Review Simulation | `exercise-08-communications-review-simulation` | Medium-High | Judgment, regulatory awareness, decision-making |
+| **09** | **Data Pipeline Compliance Review** | `exercise-09-data-pipeline-compliance` | **Medium-High** | **Data lineage, cross-border transfers, cloud compliance** |
+
+### Technical Track
+
+Exercise 09 is specifically designed for **Data Engineers, ML Engineers, Cloud Architects, and DevOps** professionals. It covers:
+- Data pipeline compliance review across 8 realistic scenarios
+- AWS/Azure/GCP compliance considerations
+- GDPR cross-border transfer requirements
+- PCI-DSS, HIPAA, and data residency issues
+- Practical checklists for pipeline reviews
 
 ---
 
