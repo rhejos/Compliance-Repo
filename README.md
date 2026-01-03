@@ -8,9 +8,20 @@
 
 ---
 
+## Featured Artifacts
+
+The best examples of applied compliance thinking:
+
+- [Capstone: End-to-End Compliance Decision](templates/capstone-compliance-decision.md) — Judgment, tradeoffs, escalation, documentation
+- [Exercise 08: Communications Review Simulation](https://github.com/rhejos/Compliance-Repo/tree/exercise-08-communications-review-simulation) — Real-time decision-making under ambiguity
+- [Exercise 01: Escalation Decision Framework](https://github.com/rhejos/Compliance-Repo/tree/exercise-01-escalation-decision-framework) — When to escalate vs. handle
+
+---
+
 ## Table of Contents
 
 - [Quick Start](#quick-start-3-steps)
+- [Featured Artifacts](#featured-artifacts)
 - [Purpose](#purpose)
 - [Who Is This For?](#who-is-this-for)
 - [For Hiring Managers (5-Minute Review)](#for-hiring-managers-5-minute-review)
@@ -68,7 +79,7 @@ Short on time? Here's what to look at and what it proves:
 | [Exercise 01: Escalation Framework](https://github.com/rhejos/Compliance-Repo/tree/exercise-01-escalation-decision-framework) | Judgment under ambiguity—when to escalate vs. handle | 2 min |
 | [Exercise 03: Incident Response](https://github.com/rhejos/Compliance-Repo/tree/exercise-03-incident-response-workflow) | Process design + regulatory notification requirements | 1 min |
 | [Exercise 05: Policy Gap Analysis](https://github.com/rhejos/Compliance-Repo/tree/exercise-05-policy-gap-analysis) | Mapping controls to requirements, identifying gaps | 1 min |
-| [Templates Folder](templates/) | Documentation rigor—escalation memos, risk assessments | 1 min |
+| [Capstone](templates/capstone-compliance-decision.md), [Decision Rationale](templates/decision-rationale-template.md), [Escalation Log](templates/escalation-log-template.md) | Documentation rigor—judgment, tradeoffs, audit trail | 1 min |
 
 **What this repository demonstrates:**
 - Applying judgment when rules don't give clear answers
