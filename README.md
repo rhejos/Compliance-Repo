@@ -413,6 +413,7 @@ exercise-05-policy-gap-analysis/               # Branch for Exercise 05
 exercise-06-communications-review-playbook/    # Branch for Exercise 06
 exercise-07-audit-evidence-collection/         # Branch for Exercise 07
 exercise-08-communications-review-simulation/  # Branch for Exercise 08
+exercise-09-data-pipeline-compliance/          # Branch for Exercise 09 (Technical Track)
 ```
 
 ### How to Access Exercises
@@ -470,6 +471,14 @@ git checkout exercise-01-escalation-decision-framework
 │  │                 [CAPSTONE EXERCISE - Combines All Prior Skills]              ││
 │  └─────────────────────────────────────────────────────────────────────────────┘│
 │                                                                                  │
+│  TECHNICAL TRACK (For Data Engineers, ML Engineers, Cloud Architects)           │
+│  ┌─────────────────────────────────────────────────────────────────────────────┐│
+│  │                 09 DATA PIPELINE COMPLIANCE REVIEW                           ││
+│  │                 Effort: Medium-High | Time: 4-6 hrs                          ││
+│  │                 Skills: Data Lineage, Cross-Border Transfers, Cloud/AI       ││
+│  │                 [8 Pipeline Scenarios: Analytics, ML, Healthcare, IoT...]    ││
+│  └─────────────────────────────────────────────────────────────────────────────┘│
+│                                                                                  │
 └─────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -489,6 +498,11 @@ We recommend completing the materials in this order:
 7. Complete **Exercise 06: Communications Review Playbook** (Medium Effort)
 8. Complete **Exercise 07: Audit Evidence Collection** (Medium Effort)
 9. Complete **Exercise 08: Communications Review Simulation** (Medium-High Effort)
+
+### Technical Track (For Technical Roles)
+10. Complete **Exercise 09: Data Pipeline Compliance Review** (Medium-High Effort)
+    - *Best for: Data Engineers, ML Engineers, Cloud Architects, DevOps*
+    - *Covers: 8 data pipeline scenarios, cloud compliance, AI/ML governance*
 
 ---
 
@@ -516,6 +530,16 @@ We recommend completing the materials in this order:
 | 06 | Communications Review Playbook | `exercise-06-communications-review-playbook` | Medium | Surveillance criteria, escalation paths |
 | 07 | Audit Evidence Collection | `exercise-07-audit-evidence-collection` | Medium | Control-to-evidence mapping, audit prep |
 | 08 | Communications Review Simulation | `exercise-08-communications-review-simulation` | Medium-High | Judgment, regulatory awareness, decision-making |
+| **09** | **Data Pipeline Compliance Review** | `exercise-09-data-pipeline-compliance` | **Medium-High** | **Data lineage, cross-border transfers, cloud compliance** |
+
+### Technical Track
+
+Exercise 09 is specifically designed for **Data Engineers, ML Engineers, Cloud Architects, and DevOps** professionals. It covers:
+- Data pipeline compliance review across 8 realistic scenarios
+- AWS/Azure/GCP compliance considerations
+- GDPR cross-border transfer requirements
+- PCI-DSS, HIPAA, and data residency issues
+- Practical checklists for pipeline reviews
 
 ---
 
