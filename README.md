@@ -23,6 +23,25 @@ This repository serves as a **comprehensive training resource** for individuals 
 
 ---
 
+## For Hiring Managers (5-Minute Review)
+
+Short on time? Here's what to look at and what it proves:
+
+| Artifact | What It Proves | Time |
+|----------|---------------|------|
+| [Exercise 01: Escalation Framework](https://github.com/rhejos/Compliance-Repo/tree/exercise-01-escalation-decision-framework) | Judgment under ambiguity—when to escalate vs. handle | 2 min |
+| [Exercise 03: Incident Response](https://github.com/rhejos/Compliance-Repo/tree/exercise-03-incident-response-workflow) | Process design + regulatory notification requirements | 1 min |
+| [Exercise 05: Policy Gap Analysis](https://github.com/rhejos/Compliance-Repo/tree/exercise-05-policy-gap-analysis) | Mapping controls to requirements, identifying gaps | 1 min |
+| [Templates Folder](templates/) | Documentation rigor—escalation memos, risk assessments | 1 min |
+
+**What this repository demonstrates:**
+- Applying judgment when rules don't give clear answers
+- Translating regulations into operational decisions
+- Designing workflows that scale across teams
+- Documenting decisions defensibly for auditors and regulators
+
+---
+
 ## What is Compliance?
 
 > **"Why should I care about compliance?"**
@@ -467,6 +486,20 @@ We recommend completing the materials in this order:
 | 07 | Audit Evidence Collection | `exercise-07-audit-evidence-collection` | Medium | Control-to-evidence mapping, audit prep |
 | 08 | Communications Review Simulation | `exercise-08-communications-review-simulation` | Medium-High | Judgment, regulatory awareness, decision-making |
 | **09** | **Data Pipeline Compliance Review** | `exercise-09-data-pipeline-compliance` | **Medium-High** | **Data lineage, cross-border transfers, cloud compliance** |
+
+### Transferable Skills Map
+
+These skills apply across industries—finance, healthcare, tech, SaaS, and beyond:
+
+| Skill | Exercises That Build It | Where It Applies |
+|-------|------------------------|------------------|
+| **Escalation Judgment** | 01, 06, 08 | Incident response, fraud detection, ethics hotlines, content moderation |
+| **Regulatory Interpretation** | 02, 03, 05 | Any regulated industry—adapting when rules change |
+| **Risk Assessment** | 01, 04, 09 | Vendor management, M&A due diligence, product launches |
+| **Process Design** | 03, 06, 07 | Building workflows that scale and survive audits |
+| **Evidence Documentation** | 07, 08 | Audit prep, litigation holds, regulatory examinations |
+| **Cross-Border Compliance** | 09 | GDPR, data localization, international operations |
+| **Control Mapping** | 05, 07 | SOC 2, ISO 27001, framework implementations |
 
 ---
 
