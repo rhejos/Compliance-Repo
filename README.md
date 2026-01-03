@@ -1,5 +1,41 @@
 # Compliance Frameworks Training Repository
 
+## Quick Start (3 Steps)
+
+1. **New to compliance?** → Start with [What is Compliance?](#what-is-compliance)
+2. **Ready to practice?** → `git checkout exercise-01-escalation-decision-framework`
+3. **Hiring manager?** → Jump to [5-Minute Review](#for-hiring-managers-5-minute-review)
+
+---
+
+## Table of Contents
+
+- [Quick Start](#quick-start-3-steps)
+- [Purpose](#purpose)
+- [Who Is This For?](#who-is-this-for)
+- [For Hiring Managers (5-Minute Review)](#for-hiring-managers-5-minute-review)
+- [What is Compliance?](#what-is-compliance)
+  - [The Basics](#the-basics)
+  - [You Already Do Compliance](#you-already-do-compliance-you-just-dont-call-it-that)
+  - [Why Compliance Matters](#why-compliance-matters)
+  - [Why Compliance is Critical—And Always Will Be](#why-compliance-is-criticaland-always-will-be)
+  - [Why Compliance is Critical in Tech](#why-compliance-is-critical-in-tech)
+  - [How Compliance Differs by Industry](#how-compliance-differs-by-industry)
+- [What Are Compliance Frameworks?](#what-are-compliance-frameworks)
+- [Repository Structure](#repository-structure)
+- [Hands-On Training Path](#hands-on-training-path)
+- [Frameworks Overview](#frameworks-overview)
+- [Exercises Overview](#exercises-overview)
+- [Transferable Skills Map](#transferable-skills-map)
+- [How to Use Each Exercise](#how-to-use-each-exercise)
+- [Resources](#resources)
+- [Templates](#reusable-templates)
+- [Contributing](#contributing)
+- [Important Disclaimers](#important-disclaimers)
+- [Getting Started](#getting-started)
+
+---
+
 ## Purpose
 
 This repository serves as a **comprehensive training resource** for individuals seeking to understand, practice, and demonstrate competency in compliance and regulatory frameworks. Whether you're preparing for a career in Legal & Compliance, studying for certifications, or building practical skills, this repository provides:
@@ -354,12 +390,17 @@ This repository uses a **branch-per-exercise** structure for focused learning:
 ```
 main branch/
 ├── README.md                    # You are here - overview and navigation
+├── CONTRIBUTING.md              # How to contribute to this repository
 ├── frameworks/                  # Educational content on compliance frameworks
 │   ├── soc2/
 │   ├── gdpr/
 │   ├── hipaa/
 │   ├── pci-dss/
 │   └── iso27001/
+├── resources/                   # Quick reference materials
+│   ├── glossary.md              # 100+ compliance terms
+│   ├── interview-prep.md        # Interview questions and strategies
+│   └── cheat-sheets.md          # Framework quick references
 └── templates/                   # Reusable templates for all exercises
 
 exercise-01-escalation-decision-framework/     # Branch for Exercise 01
@@ -529,6 +570,45 @@ Every exercise follows a consistent structure:
 - Compare your work to completed examples
 - Understand the reasoning behind decisions
 - Learn from alternative approaches
+
+---
+
+## Resources
+
+Quick reference materials for compliance professionals at any level:
+
+| Resource | Description | Link |
+|----------|-------------|------|
+| **Glossary** | 100+ compliance terms organized by category | [resources/glossary.md](resources/glossary.md) |
+| **Interview Prep** | Questions, strategies, and case study practice | [resources/interview-prep.md](resources/interview-prep.md) |
+| **Cheat Sheets** | Quick reference for SOC 2, GDPR, HIPAA, PCI-DSS, ISO 27001 | [resources/cheat-sheets.md](resources/cheat-sheets.md) |
+
+---
+
+## Reusable Templates
+
+Professional templates for real-world compliance work:
+
+| Template | Use Case |
+|----------|----------|
+| [Capstone Compliance Decision](templates/capstone-compliance-decision.md) | End-to-end case study demonstrating judgment |
+| [Decision Rationale](templates/decision-rationale-template.md) | Document defensible decisions |
+| [Escalation Log](templates/escalation-log-template.md) | Track escalations from start to finish |
+| [Escalation Memo](templates/escalation-memo.md) | Formal escalation documentation |
+| [Risk Assessment](templates/risk-assessment.md) | Evaluate and document risks |
+| [Policy Template](templates/policy-template.md) | Create new policies |
+| [Vendor Assessment](templates/vendor-assessment.md) | Assess third-party vendors |
+| [Incident Report](templates/incident-report.md) | Document security incidents |
+
+---
+
+## Contributing
+
+Want to improve this repository? Contributions are welcome!
+
+- **Found an error?** [Open an issue](../../issues/new/choose)
+- **Want to add content?** See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
+- **Have a question?** Open an issue with the "question" label
 
 ---
 
