@@ -8,6 +8,9 @@ This directory contains templates you can use in real-world compliance work. Cus
 
 | Template | Description | Use Case |
 |----------|-------------|----------|
+| [capstone-compliance-decision.md](capstone-compliance-decision.md) | End-to-end compliance case study | Demonstrating judgment + documentation |
+| [decision-rationale-template.md](decision-rationale-template.md) | Document why decisions were made | Audit-defensible decision records |
+| [escalation-log-template.md](escalation-log-template.md) | Track escalations from start to finish | Creating audit trail for issues |
 | [escalation-memo.md](escalation-memo.md) | Formal escalation documentation | Escalating compliance concerns |
 | [risk-assessment.md](risk-assessment.md) | Risk assessment template | Evaluating risks |
 | [policy-template.md](policy-template.md) | Standard policy format | Creating new policies |
