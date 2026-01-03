@@ -23,7 +23,7 @@
   - [How Compliance Differs by Industry](#how-compliance-differs-by-industry)
 - [What Are Compliance Frameworks?](#what-are-compliance-frameworks)
 - [Repository Structure](#repository-structure)
-- [Hands-On Training Path](#hands-on-training-path)
+- [Hands-On Decision Path](#hands-on-decision-path)
 - [Frameworks Overview](#frameworks-overview)
 - [Exercises Overview](#exercises-overview)
 - [Transferable Skills Map](#transferable-skills-map)
@@ -75,6 +75,8 @@ Short on time? Here's what to look at and what it proves:
 - Translating regulations into operational decisions
 - Designing workflows that scale across teams
 - Documenting decisions defensibly for auditors and regulators
+
+**Want to go deeper?** Review [Exercise 08 (Communications Review Simulation)](https://github.com/rhejos/Compliance-Repo/tree/exercise-08-communications-review-simulation) or [Exercise 07 (Audit Evidence Collection)](https://github.com/rhejos/Compliance-Repo/tree/exercise-07-audit-evidence-collection) to see end-to-end decision-making and documentation quality.
 
 ---
 
@@ -423,11 +425,11 @@ git checkout exercise-01-escalation-decision-framework
 
 ---
 
-## Hands-On Training Path
+## Hands-On Decision Path
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────┐
-│                           HANDS-ON TRAINING PATH                                 │
+│                           HANDS-ON DECISION PATH                                 │
 ├─────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                  │
 │  PHASE 1: FOUNDATION                                                             │
@@ -591,7 +593,7 @@ Professional templates for real-world compliance work:
 
 | Template | Use Case |
 |----------|----------|
-| [Capstone Compliance Decision](templates/capstone-compliance-decision.md) | End-to-end case study demonstrating judgment |
+| [Capstone Compliance Decision](templates/capstone-compliance-decision.md) | **End-to-end case demonstrating judgment, tradeoffs, escalation, and defensible documentation** |
 | [Decision Rationale](templates/decision-rationale-template.md) | Document defensible decisions |
 | [Escalation Log](templates/escalation-log-template.md) | Track escalations from start to finish |
 | [Escalation Memo](templates/escalation-memo.md) | Formal escalation documentation |
