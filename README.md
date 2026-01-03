@@ -25,11 +25,11 @@ This repository serves as a **comprehensive training resource** for individuals 
 
 ## What is Compliance?
 
-> **"I'm a data engineer. Why do I need to know about compliance?"**
+> **"Why should I care about compliance?"**
 >
-> Because that pipeline you built moves personal data across borders. That ML model you trained makes decisions about real people. That cloud migration you're planning has legal implications. When something goes wrong, "I just write code" isn't a defense.
+> Because every organization—whether a startup, enterprise, hospital, or bank—operates under rules. Break them, and you face fines, lawsuits, lost customers, or worse. Understand them, and you become invaluable.
 >
-> Technical roles are increasingly on the front lines of compliance. This repo helps you understand why—and gives you hands-on practice.
+> Compliance isn't about checking boxes. It's about protecting people, building trust, and enabling business to operate responsibly.
 
 ### The Basics
 
@@ -241,91 +241,6 @@ GDPR requires breach notification within 72 hours. Weekends and holidays count.
 - Report breaches honestly and quickly
 - Document everything
 
-### Why Technical Roles Need Compliance Knowledge
-
-> **The days of "compliance is someone else's job" are over.**
-
-Every technical decision has compliance implications:
-
-| Technical Role | Compliance Responsibility |
-|----------------|--------------------------|
-| **Data Engineer** | Data lineage, retention policies, cross-border transfers, PII handling |
-| **ML Engineer** | Model bias audits, explainability, training data governance |
-| **Cloud Architect** | Data residency, encryption requirements, access controls |
-| **DevOps/SRE** | Audit logging, incident response, backup/recovery compliance |
-| **Backend Developer** | Consent management, data deletion, API security |
-| **Security Engineer** | Vulnerability management, penetration testing, SOC 2 controls |
-
----
-
-#### Data Pipelines Are Compliance Pipelines
-
-Your ETL job isn't just moving data—it's potentially:
-- Transferring PII across borders (GDPR violation if done wrong)
-- Retaining data longer than allowed (data minimization violation)
-- Mixing data from different consent categories (purpose limitation violation)
-- Creating copies without proper access controls (security violation)
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                    DATA PIPELINE COMPLIANCE CHECKPOINTS                      │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│  SOURCE              TRANSFORM              LOAD               CONSUME       │
-│  ┌─────────┐         ┌─────────┐         ┌─────────┐         ┌─────────┐   │
-│  │ Raw Data│ ──────► │ Process │ ──────► │  Store  │ ──────► │  Use    │   │
-│  └─────────┘         └─────────┘         └─────────┘         └─────────┘   │
-│       │                   │                   │                   │         │
-│       ▼                   ▼                   ▼                   ▼         │
-│  ┌─────────┐         ┌─────────┐         ┌─────────┐         ┌─────────┐   │
-│  │• Consent│         │• PII    │         │• Where? │         │• Who    │   │
-│  │  valid? │         │  masked?│         │  (region)│        │  access?│   │
-│  │• Source │         │• Logs   │         │• Encrypt?│        │• Purpose│   │
-│  │  legal? │         │  clean? │         │• Retain │         │  valid? │   │
-│  └─────────┘         └─────────┘         │  how    │         └─────────┘   │
-│                                          │  long?  │                        │
-│                                          └─────────┘                        │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-#### Cloud Migration = Compliance Migration
-
-Moving to AWS/Azure/GCP? You're also moving your compliance obligations:
-
-| On-Prem Reality | Cloud Reality |
-|-----------------|---------------|
-| Data stays in your building | Data can be anywhere (check regions!) |
-| You control hardware | Shared responsibility model |
-| Single jurisdiction | Multi-region = multi-jurisdiction |
-| Your team has access | Cloud provider employees too (encryption matters) |
-| You manage backups | Backups might replicate to other regions |
-
-**Before cloud migration, answer:**
-1. Where will data physically reside? (Some laws require local storage)
-2. Who at the cloud provider can access unencrypted data?
-3. How do you handle data subject deletion requests across all replicas?
-4. What happens to your data if you leave the provider?
-
----
-
-#### AI/ML Models Are Compliance Risks
-
-| AI Risk | Compliance Requirement | Who's Responsible |
-|---------|----------------------|-------------------|
-| Training on personal data | Need legal basis (consent, legitimate interest) | ML Engineer + Legal |
-| Biased outcomes | Fairness audits, disparate impact testing | ML Engineer + Compliance |
-| Black-box decisions | Explainability for affected individuals | ML Engineer |
-| Data retention in models | Right to be forgotten extends to model retraining | ML Engineer + Data Engineer |
-| Automated decisions | Human review rights (GDPR Art. 22) | Product + ML Engineer |
-
-**EU AI Act Classification (coming 2025):**
-- **Unacceptable risk:** Social scoring, real-time biometric surveillance → Banned
-- **High risk:** Hiring, credit, healthcare decisions → Strict requirements
-- **Limited risk:** Chatbots, deepfakes → Transparency obligations
-- **Minimal risk:** Spam filters, games → No specific requirements
-
 ### How Compliance Differs by Industry
 
 Different industries face different regulations based on the risks they create:
@@ -471,12 +386,11 @@ git checkout exercise-01-escalation-decision-framework
 │  │                 [CAPSTONE EXERCISE - Combines All Prior Skills]              ││
 │  └─────────────────────────────────────────────────────────────────────────────┘│
 │                                                                                  │
-│  TECHNICAL TRACK (For Data Engineers, ML Engineers, Cloud Architects)           │
+│  TECHNICAL TRACK (Optional)                                                      │
 │  ┌─────────────────────────────────────────────────────────────────────────────┐│
 │  │                 09 DATA PIPELINE COMPLIANCE REVIEW                           ││
 │  │                 Effort: Medium-High | Time: 4-6 hrs                          ││
-│  │                 Skills: Data Lineage, Cross-Border Transfers, Cloud/AI       ││
-│  │                 [8 Pipeline Scenarios: Analytics, ML, Healthcare, IoT...]    ││
+│  │                 [For technical roles: Data, Cloud, and AI compliance]        ││
 │  └─────────────────────────────────────────────────────────────────────────────┘│
 │                                                                                  │
 └─────────────────────────────────────────────────────────────────────────────────┘
@@ -499,10 +413,9 @@ We recommend completing the materials in this order:
 8. Complete **Exercise 07: Audit Evidence Collection** (Medium Effort)
 9. Complete **Exercise 08: Communications Review Simulation** (Medium-High Effort)
 
-### Technical Track (For Technical Roles)
+### Technical Track
 10. Complete **Exercise 09: Data Pipeline Compliance Review** (Medium-High Effort)
-    - *Best for: Data Engineers, ML Engineers, Cloud Architects, DevOps*
-    - *Covers: 8 data pipeline scenarios, cloud compliance, AI/ML governance*
+    - *For technical roles who want hands-on data and cloud compliance practice*
 
 ---
 
@@ -531,15 +444,6 @@ We recommend completing the materials in this order:
 | 07 | Audit Evidence Collection | `exercise-07-audit-evidence-collection` | Medium | Control-to-evidence mapping, audit prep |
 | 08 | Communications Review Simulation | `exercise-08-communications-review-simulation` | Medium-High | Judgment, regulatory awareness, decision-making |
 | **09** | **Data Pipeline Compliance Review** | `exercise-09-data-pipeline-compliance` | **Medium-High** | **Data lineage, cross-border transfers, cloud compliance** |
-
-### Technical Track
-
-Exercise 09 is specifically designed for **Data Engineers, ML Engineers, Cloud Architects, and DevOps** professionals. It covers:
-- Data pipeline compliance review across 8 realistic scenarios
-- AWS/Azure/GCP compliance considerations
-- GDPR cross-border transfer requirements
-- PCI-DSS, HIPAA, and data residency issues
-- Practical checklists for pipeline reviews
 
 ---
 
