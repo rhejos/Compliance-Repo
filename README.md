@@ -1,5 +1,39 @@
 # Compliance Frameworks Training Repository
 
+## Quick Start (3 Steps)
+
+1. **New to compliance?** → Start with [What is Compliance?](#what-is-compliance)
+2. **Ready to practice?** → `git checkout exercise-01-escalation-decision-framework`
+3. **Hiring manager?** → Jump to [5-Minute Review](#for-hiring-managers-5-minute-review)
+
+---
+
+## Table of Contents
+
+- [Quick Start](#quick-start-3-steps)
+- [Purpose](#purpose)
+- [Who Is This For?](#who-is-this-for)
+- [For Hiring Managers (5-Minute Review)](#for-hiring-managers-5-minute-review)
+- [What is Compliance?](#what-is-compliance)
+  - [The Basics](#the-basics)
+  - [You Already Do Compliance](#you-already-do-compliance-you-just-dont-call-it-that)
+  - [Why Compliance Matters](#why-compliance-matters)
+  - [Why Compliance is Critical—And Always Will Be](#why-compliance-is-criticaland-always-will-be)
+  - [Why Compliance is Critical in Tech](#why-compliance-is-critical-in-tech)
+  - [How Compliance Differs by Industry](#how-compliance-differs-by-industry)
+- [What Are Compliance Frameworks?](#what-are-compliance-frameworks)
+- [Repository Structure](#repository-structure)
+- [Hands-On Training Path](#hands-on-training-path)
+- [Frameworks Overview](#frameworks-overview)
+- [Exercises Overview](#exercises-overview)
+- [Transferable Skills Map](#transferable-skills-map)
+- [How to Use Each Exercise](#how-to-use-each-exercise)
+- [Templates](#reusable-templates)
+- [Important Disclaimers](#important-disclaimers)
+- [Getting Started](#getting-started)
+
+---
+
 ## Purpose
 
 This repository serves as a **comprehensive training resource** for individuals seeking to understand, practice, and demonstrate competency in compliance and regulatory frameworks. Whether you're preparing for a career in Legal & Compliance, studying for certifications, or building practical skills, this repository provides:
