@@ -66,6 +66,29 @@ This repository serves as a **comprehensive training resource** for individuals 
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
+### You Already Do Compliance (You Just Don't Call It That)
+
+Every time you follow a rule to protect someone or something, you're doing compliance:
+
+| What You Do | What It's Called | Why It Matters |
+|-------------|------------------|----------------|
+| Add a password to your database | Access Control | Prevents unauthorized data access |
+| Delete a user's account when they ask | Data Subject Rights | GDPR/CCPA requirement |
+| Use HTTPS instead of HTTP | Encryption in Transit | Protects data from interception |
+| Log who accessed a file | Audit Trail | Proves what happened during investigations |
+| Ask "do we really need this data?" | Data Minimization | Reduces risk and legal exposure |
+| Check if a vendor is secure before using them | Third-Party Risk Management | You're liable for their failures |
+
+**Tech Example:** You're a developer adding a "Delete My Account" button. You:
+1. Delete the user from the users table ✓
+2. Remove their posts from the posts table ✓
+3. Clear their data from Redis cache ✓
+4. ...but forget about the analytics database, the backup tapes, and the ML model trained on their data ✗
+
+That's a compliance failure—specifically, violating the "right to be forgotten." The button worked, but the *compliance requirement* wasn't met. The user's data still exists in three places.
+
+**The point:** Compliance isn't a separate job. It's thinking through the full impact of what you build.
+
 ### Why Compliance Matters
 
 | Stakeholder | Why Compliance Matters |
