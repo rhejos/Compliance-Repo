@@ -1,5 +1,7 @@
 # Applied Compliance Frameworks
 
+*Built by someone who believes compliance is about judgment, not checklists. Background in banking, customer-facing operations, and risk—this repo exists because I wanted to build an applied lab, not just take notes.*
+
 ## Quick Start (3 Steps)
 
 1. **New to compliance?** → Start with [What is Compliance?](#what-is-compliance)
@@ -43,6 +45,7 @@ The best examples of applied compliance thinking:
 - [Templates](#reusable-templates)
 - [Contributing](#contributing)
 - [Important Disclaimers](#important-disclaimers)
+- [Future Enhancements](#future-enhancements)
 - [Getting Started](#getting-started)
 
 ---
@@ -55,6 +58,8 @@ This repository serves as a **comprehensive practical resource** for individuals
 2. **Hands-On Exercises** - Realistic scenarios to practice decision-making
 3. **Completed Examples** - Reference solutions with detailed explanations
 4. **Reusable Templates** - Professional documents for real-world application
+
+This repository also serves as a living portfolio—demonstrating how to design realistic compliance exercises, assessments, and workflows for modern organizations.
 
 ---
 
@@ -88,6 +93,19 @@ Short on time? Here's what to look at and what it proves:
 - Documenting decisions defensibly for auditors and regulators
 
 **Want to go deeper?** Review [Exercise 08 (Communications Review Simulation)](https://github.com/rhejos/Compliance-Repo/tree/exercise-08-communications-review-simulation) or [Exercise 07 (Audit Evidence Collection)](https://github.com/rhejos/Compliance-Repo/tree/exercise-07-audit-evidence-collection) to see end-to-end decision-making and documentation quality.
+
+**What this demonstrates about my skill set:**
+- Applied risk judgment under ambiguity—not just following rules, but knowing when rules don't give clear answers
+- Process and workflow design that scales across teams and survives audits
+- Ability to teach and operationalize compliance—I don't just know it, I can build programs around it
+- Cross-functional communication and documentation quality that holds up to scrutiny
+
+**Where this can be used internally:**
+- New hire onboarding for compliance teams
+- Tabletop simulations for incident response
+- Vendor risk assessment workshops
+- Audit readiness drills
+- Interview assessments for compliance candidates
 
 ---
 
@@ -638,6 +656,20 @@ This is not official certification preparation material for any regulatory body 
 
 ### No Real Data
 No actual company communications, policies, or proprietary information is included. All examples are generic and based on publicly available regulatory guidance.
+
+---
+
+## Future Enhancements
+
+Ideas for continued development:
+
+- **Design Notes per exercise** — Explain why each scenario was chosen, what tradeoffs it forces, and what makes a strong answer
+- **Exercise README consistency** — Standardize all exercise branches with the same headings (Background → Objectives → Instructions → Deliverables → Solution → Reflection)
+- **Industry-specific tracks** — Create branches like `track-fintech`, `track-healthcare`, `track-saas` with tailored exercises
+- **Framework depth** — Expand the `/frameworks` folder with implementation guides, control mappings, and common pitfalls
+- **Community contributions** — Grow adoption through LinkedIn visibility, compliance community engagement, and accepting PRs
+
+*Contributions welcome—see [CONTRIBUTING.md](CONTRIBUTING.md).*
 
 ---
 
