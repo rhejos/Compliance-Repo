@@ -1,4 +1,4 @@
-# Compliance Frameworks Training Repository
+# Applied Compliance Frameworks
 
 ## Quick Start (3 Steps)
 
@@ -49,7 +49,7 @@ The best examples of applied compliance thinking:
 
 ## Purpose
 
-This repository serves as a **comprehensive training resource** for individuals seeking to understand, practice, and demonstrate competency in compliance and regulatory frameworks. Whether you're preparing for a career in Legal & Compliance, studying for certifications, or building practical skills, this repository provides:
+This repository serves as a **comprehensive practical resource** for individuals seeking to understand, practice, and demonstrate competency in compliance and regulatory frameworks. Whether you're preparing for a career in Legal & Compliance, studying for certifications, or building practical skills, this repository provides:
 
 1. **Educational Content** - Clear explanations of major compliance frameworks
 2. **Hands-On Exercises** - Realistic scenarios to practice decision-making
