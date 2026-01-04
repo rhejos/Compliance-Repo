@@ -1,4 +1,4 @@
-# Compliance Frameworks Training Repository
+# Applied Compliance Frameworks
 
 ## Quick Start (3 Steps)
 
@@ -8,9 +8,20 @@
 
 ---
 
+## Featured Artifacts
+
+The best examples of applied compliance thinking:
+
+- [Capstone: End-to-End Compliance Decision](templates/capstone-compliance-decision.md) — Judgment, tradeoffs, escalation, documentation
+- [Exercise 08: Communications Review Simulation](https://github.com/rhejos/Compliance-Repo/tree/exercise-08-communications-review-simulation) — Real-time decision-making under ambiguity
+- [Exercise 01: Escalation Decision Framework](https://github.com/rhejos/Compliance-Repo/tree/exercise-01-escalation-decision-framework) — When to escalate vs. handle
+
+---
+
 ## Table of Contents
 
 - [Quick Start](#quick-start-3-steps)
+- [Featured Artifacts](#featured-artifacts)
 - [Purpose](#purpose)
 - [Who Is This For?](#who-is-this-for)
 - [For Hiring Managers (5-Minute Review)](#for-hiring-managers-5-minute-review)
@@ -23,7 +34,7 @@
   - [How Compliance Differs by Industry](#how-compliance-differs-by-industry)
 - [What Are Compliance Frameworks?](#what-are-compliance-frameworks)
 - [Repository Structure](#repository-structure)
-- [Hands-On Training Path](#hands-on-training-path)
+- [Hands-On Decision Path](#hands-on-decision-path)
 - [Frameworks Overview](#frameworks-overview)
 - [Exercises Overview](#exercises-overview)
 - [Transferable Skills Map](#transferable-skills-map)
@@ -38,7 +49,7 @@
 
 ## Purpose
 
-This repository serves as a **comprehensive training resource** for individuals seeking to understand, practice, and demonstrate competency in compliance and regulatory frameworks. Whether you're preparing for a career in Legal & Compliance, studying for certifications, or building practical skills, this repository provides:
+This repository serves as a **comprehensive practical resource** for individuals seeking to understand, practice, and demonstrate competency in compliance and regulatory frameworks. Whether you're preparing for a career in Legal & Compliance, studying for certifications, or building practical skills, this repository provides:
 
 1. **Educational Content** - Clear explanations of major compliance frameworks
 2. **Hands-On Exercises** - Realistic scenarios to practice decision-making
@@ -68,13 +79,15 @@ Short on time? Here's what to look at and what it proves:
 | [Exercise 01: Escalation Framework](https://github.com/rhejos/Compliance-Repo/tree/exercise-01-escalation-decision-framework) | Judgment under ambiguity—when to escalate vs. handle | 2 min |
 | [Exercise 03: Incident Response](https://github.com/rhejos/Compliance-Repo/tree/exercise-03-incident-response-workflow) | Process design + regulatory notification requirements | 1 min |
 | [Exercise 05: Policy Gap Analysis](https://github.com/rhejos/Compliance-Repo/tree/exercise-05-policy-gap-analysis) | Mapping controls to requirements, identifying gaps | 1 min |
-| [Templates Folder](templates/) | Documentation rigor—escalation memos, risk assessments | 1 min |
+| [Capstone](templates/capstone-compliance-decision.md), [Decision Rationale](templates/decision-rationale-template.md), [Escalation Log](templates/escalation-log-template.md) | Documentation rigor—judgment, tradeoffs, audit trail | 1 min |
 
 **What this repository demonstrates:**
 - Applying judgment when rules don't give clear answers
 - Translating regulations into operational decisions
 - Designing workflows that scale across teams
 - Documenting decisions defensibly for auditors and regulators
+
+**Want to go deeper?** Review [Exercise 08 (Communications Review Simulation)](https://github.com/rhejos/Compliance-Repo/tree/exercise-08-communications-review-simulation) or [Exercise 07 (Audit Evidence Collection)](https://github.com/rhejos/Compliance-Repo/tree/exercise-07-audit-evidence-collection) to see end-to-end decision-making and documentation quality.
 
 ---
 
@@ -423,11 +436,11 @@ git checkout exercise-01-escalation-decision-framework
 
 ---
 
-## Hands-On Training Path
+## Hands-On Decision Path
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────┐
-│                           HANDS-ON TRAINING PATH                                 │
+│                           HANDS-ON DECISION PATH                                 │
 ├─────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                  │
 │  PHASE 1: FOUNDATION                                                             │
@@ -591,7 +604,7 @@ Professional templates for real-world compliance work:
 
 | Template | Use Case |
 |----------|----------|
-| [Capstone Compliance Decision](templates/capstone-compliance-decision.md) | End-to-end case study demonstrating judgment |
+| [Capstone Compliance Decision](templates/capstone-compliance-decision.md) | **End-to-end case demonstrating judgment, tradeoffs, escalation, and defensible documentation** |
 | [Decision Rationale](templates/decision-rationale-template.md) | Document defensible decisions |
 | [Escalation Log](templates/escalation-log-template.md) | Track escalations from start to finish |
 | [Escalation Memo](templates/escalation-memo.md) | Formal escalation documentation |
