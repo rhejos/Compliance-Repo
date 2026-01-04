@@ -1,6 +1,6 @@
 # Applied Compliance Frameworks
 
-*Built by someone who believes compliance is about judgment, not checklists. Background in banking, customer-facing operations, and risk—this repo exists because I wanted to build an applied lab, not just take notes.*
+*Built by a practitioner with experience across regulated operations and data-driven risk environments. This repo exists to practice real-world compliance decisions, not just document theory.*
 
 ## Quick Start (3 Steps)
 
