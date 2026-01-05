@@ -92,7 +92,7 @@ Short on time? Here's what to look at and what it proves:
 - Designing workflows that scale across teams
 - Documenting decisions defensibly for auditors and regulators
 
-**Want to go deeper?** Review [Exercise 08 (Communications Review Simulation)]([https://github.com/rhejos/Compliance-Repo/tree/exercise-08-communications-review-simulation](https://github.com/rhejos/Compliance-Repo/tree/claude/exercise-08-communications-review-simulation-21lOv?tab=readme-ov-file#exercise-08-global-communications-review-simulation) or [Exercise 07 (Audit Evidence Collection)]([https://github.com/rhejos/Compliance-Repo/tree/exercise-07-audit-evidence-collection](https://github.com/rhejos/Compliance-Repo/tree/claude/exercise-07-audit-evidence-collection-21lOv)) to see end-to-end decision-making and documentation quality.
+**Want to go deeper?** Review [Exercise 08 (Communications Review Simulation)](https://github.com/rhejos/Compliance-Repo/tree/claude/exercise-08-communications-review-simulation-21lOv?tab=readme-ov-file#exercise-08-global-communications-review-simulation) or [Exercise 07 (Audit Evidence Collection)](https://github.com/rhejos/Compliance-Repo/tree/claude/exercise-07-audit-evidence-collection-21lOv)) to see end-to-end decision-making and documentation quality.
 
 **What this demonstrates about my skill set:**
 - Applied risk judgment under ambiguity—not just following rules, but knowing when rules don't give clear answers
