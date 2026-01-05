@@ -16,7 +16,7 @@ The best examples of applied compliance thinking:
 
 - [Capstone: End-to-End Compliance Decision](templates/capstone-compliance-decision.md) — Judgment, tradeoffs, escalation, documentation
 - [Exercise 08: Communications Review Simulation](https://github.com/rhejos/Compliance-Repo/tree/claude/exercise-08-communications-review-simulation-21lOv?tab=readme-ov-file#exercise-08-global-communications-review-simulation) — Real-time decision-making under ambiguity
-- [Exercise 01: Escalation Decision Framework](https://github.com/rhejos/Compliance-Repo/tree/exercise-01-escalation-decision-framework) — When to escalate vs. handle
+- [Exercise 01: Escalation Decision Framework](https://github.com/rhejos/Compliance-Repo/tree/claude/exercise-01-escalation-decision-framework-21lOv?tab=readme-ov-file#exercise-01-escalation-decision-framework) — When to escalate vs. handle
 
 ---
 
