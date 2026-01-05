@@ -81,9 +81,9 @@ Short on time? Here's what to look at and what it proves:
 
 | Artifact | What It Proves | Time |
 |----------|---------------|------|
-| [Exercise 01: Escalation Framework](https://github.com/rhejos/Compliance-Repo/tree/exercise-01-escalation-decision-framework) | Judgment under ambiguity—when to escalate vs. handle | 2 min |
-| [Exercise 03: Incident Response](https://github.com/rhejos/Compliance-Repo/tree/exercise-03-incident-response-workflow) | Process design + regulatory notification requirements | 1 min |
-| [Exercise 05: Policy Gap Analysis](https://github.com/rhejos/Compliance-Repo/tree/exercise-05-policy-gap-analysis) | Mapping controls to requirements, identifying gaps | 1 min |
+| [Exercise 01: Escalation Framework](https://github.com/rhejos/Compliance-Repo/tree/claude/exercise-01-escalation-decision-framework-21lOv) | Judgment under ambiguity—when to escalate vs. handle | 2 min |
+| [Exercise 03: Incident Response](https://github.com/rhejos/Compliance-Repo/tree/claude/exercise-03-incident-response-workflow-21lOv) | Process design + regulatory notification requirements | 1 min |
+| [Exercise 05: Policy Gap Analysis](https://github.com/rhejos/Compliance-Repo/tree/claude/exercise-05-policy-gap-analysis-21lOv?tab=readme-ov-file) | Mapping controls to requirements, identifying gaps | 1 min |
 | [Capstone](templates/capstone-compliance-decision.md), [Decision Rationale](templates/decision-rationale-template.md), [Escalation Log](templates/escalation-log-template.md) | Documentation rigor—judgment, tradeoffs, audit trail | 1 min |
 
 **What this repository demonstrates:**
