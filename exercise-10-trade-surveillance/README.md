@@ -48,6 +48,7 @@ By completing this exercise, you will:
 | [triage-framework.md](triage-framework.md) | Decision framework for alert review |
 | [regulatory-context.md](regulatory-context.md) | Key regulations and manipulation types |
 | [solutions.md](solutions.md) | Model answers with reasoning |
+| [references.md](references.md) | Sources: SEC, FINRA, CFTC rules, enforcement cases |
 
 ---
 
