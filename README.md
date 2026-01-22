@@ -450,6 +450,7 @@ exercise-07-audit-evidence-collection/         # Branch for Exercise 07
 exercise-08-communications-review-simulation/  # Branch for Exercise 08
 exercise-09-data-pipeline-compliance/          # Branch for Exercise 09 (Technical Track)
 exercise-10-trade-surveillance-alert-triage/   # Branch for Exercise 10 (Financial Markets)
+exercise-11-platform-risk-assessment/          # Branch for Exercise 11 (Platform Compliance)
 ```
 
 ### How to Access Exercises
@@ -521,6 +522,13 @@ git checkout exercise-01-escalation-decision-framework
 │  │                 [For trading firms: Market manipulation, SEC/FINRA]          ││
 │  └─────────────────────────────────────────────────────────────────────────────┘│
 │                                                                                  │
+│  PLATFORM COMPLIANCE TRACK (Optional)                                            │
+│  ┌─────────────────────────────────────────────────────────────────────────────┐│
+│  │                 11 PLATFORM REGULATORY RISK ASSESSMENT (DSA/OSA)             ││
+│  │                 Effort: Medium-High | Time: 4-6 hrs                          ││
+│  │                 [For Big Tech: EU Digital Services Act, UK Online Safety Act]││
+│  └─────────────────────────────────────────────────────────────────────────────┘│
+│                                                                                  │
 └─────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -548,6 +556,10 @@ We recommend completing the materials in this order:
 ### Financial Markets Track
 11. Complete **Exercise 10: Trade Surveillance Alert Triage** (Medium-High Effort)
     - *For trading firms, banks, and broker-dealers: market manipulation detection and SEC/FINRA compliance*
+
+### Platform Compliance Track
+12. Complete **Exercise 11: Platform Regulatory Risk Assessment (DSA/OSA)** (Medium-High Effort)
+    - *For Big Tech platforms: EU Digital Services Act, UK Online Safety Act, systemic risk assessment*
 
 ---
 
@@ -577,6 +589,7 @@ We recommend completing the materials in this order:
 | 08 | Communications Review Simulation | `exercise-08-communications-review-simulation` | Medium-High | Judgment, regulatory awareness, decision-making |
 | **09** | **Data Pipeline Compliance Review** | `exercise-09-data-pipeline-compliance` | **Medium-High** | **Data lineage, cross-border transfers, cloud compliance** |
 | **10** | **Trade Surveillance Alert Triage** | `exercise-10-trade-surveillance-alert-triage` | **Medium-High** | **Market manipulation detection, alert triage, SEC/FINRA compliance** |
+| **11** | **Platform Regulatory Risk Assessment (DSA/OSA)** | `exercise-11-platform-risk-assessment` | **Medium-High** | **Systemic risk assessment, DSA/OSA compliance, platform regulation** |
 
 ### Transferable Skills Map
 
@@ -585,13 +598,14 @@ These skills apply across industries—finance, healthcare, tech, SaaS, and beyo
 | Skill | Exercises That Build It | Where It Applies |
 |-------|------------------------|------------------|
 | **Escalation Judgment** | 01, 06, 08, 10 | Incident response, fraud detection, ethics hotlines, content moderation |
-| **Regulatory Interpretation** | 02, 03, 05, 10 | Any regulated industry—adapting when rules change |
-| **Risk Assessment** | 01, 04, 09, 10 | Vendor management, M&A due diligence, product launches |
+| **Regulatory Interpretation** | 02, 03, 05, 10, 11 | Any regulated industry—adapting when rules change |
+| **Risk Assessment** | 01, 04, 09, 10, 11 | Vendor management, M&A due diligence, product launches |
 | **Process Design** | 03, 06, 07 | Building workflows that scale and survive audits |
-| **Evidence Documentation** | 07, 08, 10 | Audit prep, litigation holds, regulatory examinations |
-| **Cross-Border Compliance** | 09 | GDPR, data localization, international operations |
-| **Control Mapping** | 05, 07 | SOC 2, ISO 27001, framework implementations |
+| **Evidence Documentation** | 07, 08, 10, 11 | Audit prep, litigation holds, regulatory examinations |
+| **Cross-Border Compliance** | 09, 11 | GDPR, data localization, international operations |
+| **Control Mapping** | 05, 07, 11 | SOC 2, ISO 27001, framework implementations |
 | **Trade Surveillance** | 10 | Market manipulation, insider trading, spoofing detection |
+| **Platform Regulation** | 11 | DSA/OSA compliance, systemic risk assessment, content moderation governance |
 
 ---
 
