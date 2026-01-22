@@ -443,6 +443,7 @@ exercise-06-communications-review-playbook/    # Branch for Exercise 06
 exercise-07-audit-evidence-collection/         # Branch for Exercise 07
 exercise-08-communications-review-simulation/  # Branch for Exercise 08
 exercise-09-data-pipeline-compliance/          # Branch for Exercise 09 (Technical Track)
+exercise-10-trade-surveillance-alert-triage/   # Branch for Exercise 10 (Financial Markets)
 ```
 
 ### How to Access Exercises
@@ -507,6 +508,13 @@ git checkout exercise-01-escalation-decision-framework
 │  │                 [For technical roles: Data, Cloud, and AI compliance]        ││
 │  └─────────────────────────────────────────────────────────────────────────────┘│
 │                                                                                  │
+│  FINANCIAL MARKETS TRACK (Optional)                                              │
+│  ┌─────────────────────────────────────────────────────────────────────────────┐│
+│  │                 10 TRADE SURVEILLANCE ALERT TRIAGE                           ││
+│  │                 Effort: Medium-High | Time: 2-3 hrs                          ││
+│  │                 [For trading firms: Market manipulation, SEC/FINRA]          ││
+│  └─────────────────────────────────────────────────────────────────────────────┘│
+│                                                                                  │
 └─────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -530,6 +538,10 @@ We recommend completing the materials in this order:
 ### Technical Track
 10. Complete **Exercise 09: Data Pipeline Compliance Review** (Medium-High Effort)
     - *For technical roles who want hands-on data and cloud compliance practice*
+
+### Financial Markets Track
+11. Complete **Exercise 10: Trade Surveillance Alert Triage** (Medium-High Effort)
+    - *For trading firms, banks, and broker-dealers: market manipulation detection and SEC/FINRA compliance*
 
 ---
 
@@ -558,6 +570,7 @@ We recommend completing the materials in this order:
 | 07 | Audit Evidence Collection | `exercise-07-audit-evidence-collection` | Medium | Control-to-evidence mapping, audit prep |
 | 08 | Communications Review Simulation | `exercise-08-communications-review-simulation` | Medium-High | Judgment, regulatory awareness, decision-making |
 | **09** | **Data Pipeline Compliance Review** | `exercise-09-data-pipeline-compliance` | **Medium-High** | **Data lineage, cross-border transfers, cloud compliance** |
+| **10** | **Trade Surveillance Alert Triage** | `exercise-10-trade-surveillance-alert-triage` | **Medium-High** | **Market manipulation detection, alert triage, SEC/FINRA compliance** |
 
 ### Transferable Skills Map
 
@@ -565,13 +578,14 @@ These skills apply across industries—finance, healthcare, tech, SaaS, and beyo
 
 | Skill | Exercises That Build It | Where It Applies |
 |-------|------------------------|------------------|
-| **Escalation Judgment** | 01, 06, 08 | Incident response, fraud detection, ethics hotlines, content moderation |
-| **Regulatory Interpretation** | 02, 03, 05 | Any regulated industry—adapting when rules change |
-| **Risk Assessment** | 01, 04, 09 | Vendor management, M&A due diligence, product launches |
+| **Escalation Judgment** | 01, 06, 08, 10 | Incident response, fraud detection, ethics hotlines, content moderation |
+| **Regulatory Interpretation** | 02, 03, 05, 10 | Any regulated industry—adapting when rules change |
+| **Risk Assessment** | 01, 04, 09, 10 | Vendor management, M&A due diligence, product launches |
 | **Process Design** | 03, 06, 07 | Building workflows that scale and survive audits |
-| **Evidence Documentation** | 07, 08 | Audit prep, litigation holds, regulatory examinations |
+| **Evidence Documentation** | 07, 08, 10 | Audit prep, litigation holds, regulatory examinations |
 | **Cross-Border Compliance** | 09 | GDPR, data localization, international operations |
 | **Control Mapping** | 05, 07 | SOC 2, ISO 27001, framework implementations |
+| **Trade Surveillance** | 10 | Market manipulation, insider trading, spoofing detection |
 
 ---
 
