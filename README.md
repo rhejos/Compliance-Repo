@@ -444,6 +444,7 @@ exercise-07-audit-evidence-collection/         # Branch for Exercise 07
 exercise-08-communications-review-simulation/  # Branch for Exercise 08
 exercise-09-data-pipeline-compliance/          # Branch for Exercise 09 (Technical Track)
 exercise-10-trade-surveillance-alert-triage/   # Branch for Exercise 10 (Financial Markets)
+exercise-11-platform-risk-assessment/          # Branch for Exercise 11 (Platform/Tech)
 ```
 
 ### How to Access Exercises
@@ -515,6 +516,13 @@ git checkout exercise-01-escalation-decision-framework
 │  │                 [For trading firms: Market manipulation, SEC/FINRA]          ││
 │  └─────────────────────────────────────────────────────────────────────────────┘│
 │                                                                                  │
+│  PLATFORM COMPLIANCE TRACK (Optional)                                            │
+│  ┌─────────────────────────────────────────────────────────────────────────────┐│
+│  │                 11 PLATFORM REGULATORY RISK ASSESSMENT (DSA/OSA)             ││
+│  │                 Effort: Medium-High | Time: 2.5-3 hrs                        ││
+│  │                 [For Big Tech: Systemic risk, content moderation, EU/UK]     ││
+│  └─────────────────────────────────────────────────────────────────────────────┘│
+│                                                                                  │
 └─────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -542,6 +550,10 @@ We recommend completing the materials in this order:
 ### Financial Markets Track
 11. Complete **Exercise 10: Trade Surveillance Alert Triage** (Medium-High Effort)
     - *For trading firms, banks, and broker-dealers: market manipulation detection and SEC/FINRA compliance*
+
+### Platform Compliance Track
+12. Complete **Exercise 11: Platform Regulatory Risk Assessment (DSA/OSA)** (Medium-High Effort)
+    - *For Big Tech, social media, and online platforms: systemic risk assessment, content moderation, EU/UK compliance*
 
 ---
 
@@ -571,6 +583,7 @@ We recommend completing the materials in this order:
 | 08 | Communications Review Simulation | `exercise-08-communications-review-simulation` | Medium-High | Judgment, regulatory awareness, decision-making |
 | **09** | **Data Pipeline Compliance Review** | `exercise-09-data-pipeline-compliance` | **Medium-High** | **Data lineage, cross-border transfers, cloud compliance** |
 | **10** | **Trade Surveillance Alert Triage** | `exercise-10-trade-surveillance-alert-triage` | **Medium-High** | **Market manipulation detection, alert triage, SEC/FINRA compliance** |
+| **11** | **Platform Regulatory Risk Assessment (DSA/OSA)** | `exercise-11-platform-risk-assessment` | **Medium-High** | **Systemic risk, DSA/OSA compliance, content moderation, Big Tech** |
 
 ### Transferable Skills Map
 
@@ -586,6 +599,7 @@ These skills apply across industries—finance, healthcare, tech, SaaS, and beyo
 | **Cross-Border Compliance** | 09 | GDPR, data localization, international operations |
 | **Control Mapping** | 05, 07 | SOC 2, ISO 27001, framework implementations |
 | **Trade Surveillance** | 10 | Market manipulation, insider trading, spoofing detection |
+| **Platform Risk Assessment** | 11 | DSA/OSA compliance, systemic risk, content moderation |
 
 ---
 
