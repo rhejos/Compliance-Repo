@@ -1,6 +1,12 @@
 # Applied Compliance Frameworks
 
-*Built by a practitioner with experience across regulated operations and data-driven risk environments. This repo exists to practice real-world compliance decisions, not just document theory.*
+*Built by a practitioner with experience across regulated operations and data-driven risk environments. This repository is a practical compliance decision system, not a theoretical overview.
+It reflects how I reason through real compliance problems: interpreting ambiguous requirements, deciding when to escalate, documenting tradeoffs, and designing workflows that hold up under audit and regulatory scrutiny.
+
+The exercises are intentionally structured to mirror real-world compliance work—where rules rarely give clean answers and judgment, documentation, and escalation discipline matter more than memorization.*
+
+## Who is this for?
+*The exercises are intentionally accessible, but the thinking they require is senior-level. They are structured to give early exposure to the kinds of judgment calls, tradeoffs, and documentation standards typically learned only through years of on-the-job experience*
 
 ## Quick Start (3 Steps)
 
