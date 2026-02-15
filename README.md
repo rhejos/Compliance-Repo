@@ -49,6 +49,7 @@ By completing this exercise, you will:
 | [regulatory-context.md](regulatory-context.md) | Key regulations and manipulation types |
 | [solutions.md](solutions.md) | Model answers with reasoning |
 | [references.md](references.md) | Sources: SEC, FINRA, CFTC rules, enforcement cases |
+| [portfolio-project.md](portfolio-project.md) | **Resume-ready project: completed triage with full documentation** |
 
 ---
 
@@ -101,6 +102,18 @@ Answer these questions:
 1. **Completed triage decisions** for all 10 alerts with documented reasoning
 2. **Reflection notes** answering the questions above
 3. **Optional:** Draft a recommendation memo for one escalated alert
+
+### Portfolio-Ready Output
+
+See [portfolio-project.md](portfolio-project.md) for a completed example showing how to document each alert with:
+- Alert summary (what triggered it)
+- Key data points reviewed
+- Risk level (Low/Medium/High)
+- Decision: Dismiss / Investigate / Escalate
+- Rationale (2-3 sentences)
+- Regulatory reference (SEC, FINRA, CFTC)
+
+Use this format when presenting your triage work to hiring managers or in interviews.
 
 ---
 
